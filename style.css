@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 body {
   max-width: 768px;
   margin: auto;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   background-color: whitesmoke;
 }
@@ -36,9 +37,7 @@ hr {
   margin: 0px;
   text-align: center;
 }
-s #reset {
-  display: none;
-}
+
 .myButtons {
   border: 0;
   line-height: 2.5;
@@ -77,6 +76,7 @@ s #reset {
   width: 15%;
   height: 18%;
   color: black;
+  background-color: lightcoral;
   /* text-align: center; */
   padding: 10px;
   border: 1px solid #000;

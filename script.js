@@ -49,17 +49,12 @@ function onClickCreate() {
         ) {
           card.style.background = "lightgreen";
           last_card.style.background = "lightgreen";
-          showResetButton();
           game_on = false;
         }
         last_card = card;
       }
     });
   }
-}
-
-function showResetButton() {
-  document.getElementById(".reset").style.display = "inline-block";
 }
 
 generate();
